@@ -10,17 +10,18 @@
   }
   .btn-bars{
   	display: block;
-  	font-size: 1em;
+  	font-size: 2em;
   	width: 1.5em;
   	color: #fff;
   	float:right;
   	padding: 0.5em;
+  	padding-right: 1.5em;
   }
 
     .btn-bars:hover{
   	font-weight: bolder;
-  	color: #234d5b;
-  	border:1px solid #234d5b;
+  	color: #fff;
+  	border:1px solid #fff;
   	border-radius: 5px;
   }
 }

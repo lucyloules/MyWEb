@@ -7,7 +7,7 @@
 body{
   background-color: #eee;
 }
-header, footer{
+header{
   background: #3366;
   height: 6em;
 }
@@ -111,6 +111,29 @@ button{
   text-align: center;
  /* outline: 1px solid red;*/
 }
+.iconos{
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px white solid;
+  display: inline-block;
+  text-align: center;
+  padding-top: 13px;
+  padding-left: 0;
+  color: #fff;
+}
+.iconos:hover {
+    
+    background-color: #749c0a;
+}
+footer{
+  text-align: center;
+  background: #3366;
+  height: 8em;
+}
+
+
 
 
 /*section slices de imagenes*/

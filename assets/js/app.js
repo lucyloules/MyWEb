@@ -1,3 +1,8 @@
+window.onload = function(){
+	
+}
+
+
 /*window.onload = function(){
 var slider = {
 	_images:[
