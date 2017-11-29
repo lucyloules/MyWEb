@@ -1,0 +1,113 @@
+/*barra munu*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+body{
+  background-color: #eee;
+}
+header, footer{
+  background: #3366;
+  height: 6em;
+}
+.star{
+  font-size: 2em;
+  padding: 0.5em;
+  float: left;
+  color: #fff;
+/*  outline: 1px solid red;*/
+}
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 1.3em;
+  padding: 1em;
+ /* outline: 1px solid red;*/
+}
+nav ul li{
+  float: left;
+}
+a{ 
+  text-decoration: none;
+  padding: 0.5em;
+  color: #fff;
+ }
+.menu-i.{
+  color: #fff;
+ }
+ .btn-bars{
+  display: none;
+ }
+/*section principal*/
+
+/*section slices de imagenes*/
+/*.btn{
+  float:left;
+  background-color: #000;
+  color:#fff;
+  border:none;
+  padding: 1em 0.5em 1em 0.5em;
+  width: 3em
+  height: 6em;
+  z-index: 2;
+}
+.btn-next{
+  float: right;
+}*/
+.principal{
+  width: 100%;
+  height: 28em;
+  background-image: url(../img/taj-mahal_copy.jpg);
+  background-size: cover; 
+}
+.title-principal{  
+  color: #FFF;
+  font-family: 'Great Vibes', cursive;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 5%;
+}
+.subtitles{
+  padding-top: 5%;
+  color: #234d5b;
+}
+.paragraph{
+  padding: 2%;
+  color: #234d5b;
+  text-align: justify;
+}
+/*img .slider{
+  float: left;
+  width: 70%;
+}*/
+/*section contacto*/
+.div-what-we-do{
+
+}
+img{
+  width: 100%;
+  height: 50%;
+}
+
+button{
+  background-color: #749c0a;
+  border:1px solid #749c0a;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #5E8004;
+  color: #fff;
+  padding: 0.5em;
+}
+/*section destines*/
+
+
+
+
+/*footer*/
+.footParagraph{
+  margin: auto;
+  padding-top: 2em;
+  color: #fff;
+  text-align: center;
+ /* outline: 1px solid red;*/
+}
