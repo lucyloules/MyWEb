@@ -33,28 +33,26 @@ a{
   padding: 0.5em;
   color: #fff;
  }
-.menu-i.{
+
+li a{
   color: #fff;
+  font-weight: bolder;
  }
+ .star:hover{
+  font-weight: bolder;
+ }
+ nav ul li a:hover {
+  font-weight: bolder;
+  color: #234d5b;
+  border:1px solid #234d5b;
+  border-radius: 5px;
+}
  .btn-bars{
   display: none;
  }
 /*section principal*/
 
-/*section slices de imagenes*/
-/*.btn{
-  float:left;
-  background-color: #000;
-  color:#fff;
-  border:none;
-  padding: 1em 0.5em 1em 0.5em;
-  width: 3em
-  height: 6em;
-  z-index: 2;
-}
-.btn-next{
-  float: right;
-}*/
+
 .principal{
   width: 100%;
   height: 28em;
@@ -72,7 +70,7 @@ a{
   padding-top: 5%;
   color: #234d5b;
 }
-.paragraph{
+.paragraph, .soul{
   padding: 2%;
   color: #234d5b;
   text-align: justify;
@@ -97,6 +95,7 @@ button{
   box-shadow: 3px 3px 3px #5E8004;
   color: #fff;
   padding: 0.5em;
+  padding-top: 2%;
 }
 /*section destines*/
 
@@ -111,3 +110,25 @@ button{
   text-align: center;
  /* outline: 1px solid red;*/
 }
+
+
+/*section slices de imagenes*/
+/*.btn{
+  float:left;
+  background-color: #000;
+  color:#fff;
+  border:none;
+  padding: 1em 0.5em 1em 0.5em;
+  width: 3em
+  height: 6em;
+  z-index: 2;
+}
+.btn-next{
+  float: right;
+}
+color: #ff8000;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 150px;
+    width: 0;
+*/
