@@ -2,5 +2,25 @@
   [class*='col-4']{
     width: 100%;
   }
-  
+    header nav {
+    display: none;
+  }
+ .star{
+  font-size: 1.5em;
+  }
+  .btn-bars{
+  	display: block;
+  	font-size: 1em;
+  	width: 1.5em;
+  	color: #fff;
+  	float:right;
+  	padding: 0.5em;
+  }
+
+    .btn-bars:hover{
+  	font-weight: bolder;
+  	color: #234d5b;
+  	border:1px solid #234d5b;
+  	border-radius: 5px;
+  }
 }
